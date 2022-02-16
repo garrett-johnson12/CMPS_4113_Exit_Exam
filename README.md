@@ -1,7 +1,7 @@
 # Exit Exam Application
-## Member
-\
-### Garrett Johnson
-### Jose Soto
-### Chris Anthony
-### Sandesh Pathak
+## Description
+## Members
+### Garrett Johnson - Team Lead
+### Jose Soto - Programmer
+### Chris Anthony - Programmer
+### Sandesh Pathak - Programmer
