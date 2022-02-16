@@ -1,8 +1,13 @@
-# Exit Exam Application
+![Logo](#)
+# Exit Exam Application by Team G
 ## Description
-<br>
+
+## File Description
+
 ## Members
-### Garrett Johnson - Team Lead
-### Jose Soto - Programmer
-### Chris Anthony - Programmer
-### Sandesh Pathak - Programmer
+Garrett Johnson - Team Lead  
+Jose Soto - Programmer  
+Chris Anthony - Programmer  
+Sandesh Pathak - Programmer  
+
+## References
