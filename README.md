@@ -1,2 +1,5 @@
-# CMPS_4113_Exit_Exam
-CMPS 4113 Software Engineering Exit Exam Software
+#Exit Exam Application
+Garrett Johnson
+Jose Soto
+Chris Anthony
+Sandesh Pathak
