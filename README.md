@@ -1,4 +1,4 @@
-![Logo](#)
+![Logo](images/TeamGLogo.png)
 # Exit Exam Application by Team G
 ## Description
 
