@@ -1,4 +1,4 @@
-![Logo](images/TeamGLogo.png)
+![Logo](images/GarrettGear.png)
 # Exit Exam Application by Team G
 ## Description
 
