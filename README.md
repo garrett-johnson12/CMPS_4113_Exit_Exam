@@ -1,4 +1,4 @@
-![Logo](images/Garrett Gear.png)
+![Logo](images/Garrett%20Gear.png)
 # Exit Exam Application by Team G
 ## Description
 
