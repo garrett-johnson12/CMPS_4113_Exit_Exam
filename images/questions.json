@@ -1,0 +1,26 @@
+[{"Concept": "Sample1", "Number_of_Questions": "1", "Question_Data": [{"Visited": "False", "In_Use": "False", 
+"Questions": ["Which string will be accepted by the regular expression? 1(00)*1", "Which regular expression accepts this string? 100001"],
+                                                                       
+"Choices": [["11001", "100001", "101", "10011"],["1(00)*11", "1(0)*", "1(00)*1", "1*0(00)*1"]], "Answers": ["B", "C"], 
+                                                                       
+"Explanations": ["Explanation: The string must start and end with a singular 1, so A and D can be eliminated. The string can have only have 0 or paris of zeros, eliminating C. This leaves B as the correct answer.", "Explanation: The expression must start with a 1 and end with 1 so B can be eliminated. D can only produce an odd number of 0s, so it can be eliminated. Answer A ends with more than a singular 1, leaving answer C."]}]}, 
+
+ 
+ {"Concept": "Sample2", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
+                                                                     
+"Questions": ["A circular linked list can be used for", "What differentiates a circular linked list from a normal linked list?", "Quicksort algorithm is an example of","Merge Sort algorithm is an example of", "Which of the following search/sort algorithms has the average time complexity of O(log(n))?", "Binary search has what time complexity?", "Stack is an acronym for", "Queue is an acronym for"],
+  
+"Choices": [["Stack", "Queue", "Both", "Neither"], ["You cannot have the next pointer point to null in a circular linked list", "It is faster to traverse the circular linked list", "You may or may not have the next pointer point to null in a circular linked list", "Head node is known in circular linked list"],["Divide and conquer","Greedy approach","Binary search","Dynammic Programming"],["Divide and conquer","Greedy approach","Binary search","Dynammic Programming"],["linear search", "binary search", "bubble sort", "insertion sort"],["O(n)", "O(nlog(n))", "Olog(n)", "O(n^2)"], ["LIFO memory", "FIFO memory", "Flash Memory", "Bust Flash Memory"], ["LIFO memory", "FIFO memory", "Flash Memory", "Bust Flash Memory"]], 
+
+"Answers": ["C", "C", "A", "A", "B", "C", "A", "B"], 
+                                                                     
+"Explanations": ["In a circular Linked List deletion can happen at front and end both and even traversal so we can use a circular queue to implement both stack and queue", "The 'next' pointer points to null only when the list is empty, otherwise it points to the head of the list.","Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.","Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves", "Linear search can only search elements 1 by 1 (O(n)). Bubble sort must traverse the entire array after each element causing O(n^2).", "The time complexity of the binary search algorithm is O(log n). The best-case time complexity would be O(1) when the central index would directly match the desired value.", " LIFO because the element inserted at the last is the first element to come out first.", "FIFO because the element inserted at the first, is the first element to come out of the list."]}]}, 
+ 
+ 
+ {"Concept": "Sample3", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
+                                                                     
+"Questions": ["In which access should a constructor be defined, so that object of the class can be created in any function?", "Which access specifier is used where one wants data members to be accessed by other classes but not from outside objects?"],
+                                                                     
+"Choices": [["Any acess specifier will work", "Private", "Public", "Protected"], ["Private", "Protected", "Public", "Both Protected and Public"]], "Answers": ["C", "B"], 
+                                                                     
+"Explanations": ["Explanation: Constructor function should be available to all the parts of the program where the object is to be created. Hence it is advised to define it in public access, so that any other function is able to create objects.", "Protected and public members are accessible from derived classes but public members can be accessed by objects of the class so protected specifier is the answer."]}]}]
