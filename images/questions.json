@@ -3,7 +3,7 @@
                                                                        
 "Choices": [["11001", "100001", "101", "10011"],["1(00)*11", "1(0)*", "1(00)*1", "1*0(00)*1"]], "Answers": ["B", "C"], 
                                                                        
-"Explanations": ["Explanation: The string must start and end with a singular 1, so A and D can be eliminated. The string can have only have 0 or paris of zeros, eliminating C. This leaves B as the correct answer.", "Explanation: The expression must start with a 1 and end with 1 so B can be eliminated. D can only produce an odd number of 0s, so it can be eliminated. Answer A ends with more than a singular 1, leaving answer C."]}]}, 
+"Explanations": ["Explanation: The string must start and end with a singular 1, so A and D can be eliminated. The string can have only have 0 or Paris of zeros, eliminating C. This leaves B as the correct answer.", "Explanation: The expression must start with a 1 and end with 1 so B can be eliminated. D can only produce an odd number of 0s, so it can be eliminated. Answer A ends with more than a singular 1, leaving answer C."]}]}, 
 
  
  {"Concept": "Sample2", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
@@ -14,13 +14,36 @@
 
 "Answers": ["C", "C", "A", "A", "B", "C", "A", "B"], 
                                                                      
-"Explanations": ["In a circular Linked List deletion can happen at front and end both and even traversal so we can use a circular queue to implement both stack and queue", "The 'next' pointer points to null only when the list is empty, otherwise it points to the head of the list.","Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.","Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves", "Linear search can only search elements 1 by 1 (O(n)). Bubble sort must traverse the entire array after each element causing O(n^2).", "The time complexity of the binary search algorithm is O(log n). The best-case time complexity would be O(1) when the central index would directly match the desired value.", " LIFO because the element inserted at the last is the first element to come out first.", "FIFO because the element inserted at the first, is the first element to come out of the list."]}]}, 
+"Explanations": ["In a circular Linked List deletion can happen at front and end both and even traversal so we can use a circular queue to implement both stack and queue", "The 'next' pointer points to null only when the list is empty, otherwise it points to the head of the list.","Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot.","Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves", "Linear search can only search elements 1 by 1 (O(n)). Bubble sort must traverse the entire array after each element causing O(n^2).", "The time complexity of the binary search algorithm is O(log n). The best-case time complexity would be O(1) when the central index would directly match the desired value.", " LIFO because the element inserted at the last is the first element to come out first.", "FIFO because the element inserted at the first is the first element to come out of the list."]}]}, 
  
  
  {"Concept": "Sample3", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
                                                                      
-"Questions": ["In which access should a constructor be defined, so that object of the class can be created in any function?", "Which access specifier is used where one wants data members to be accessed by other classes but not from outside objects?"],
+"Questions": ["In which access should a constructor be defined, so that object of the class can be created in any function?", "Which access specifier is used where one wants data members to be accessed by other classes but not from outside objects?", "OOP stands for?", "Object-oriented programming(OOP) has four basic concepts. Which one does not belong?", "Exposing only the necessary information to the user in Object-Oriented Programming is known as"],
                                                                      
-"Choices": [["Any acess specifier will work", "Private", "Public", "Protected"], ["Private", "Protected", "Public", "Both Protected and Public"]], "Answers": ["C", "B"], 
+"Choices": [["Any acess specifier will work", "Private", "Public", "Protected"], ["Private", "Protected", "Public", "Both Protected and Public"], ["Out of Pocket", "Object Oriented Programming", "Out of policy", "Oriented Object Program"], ["Encapsulation", "Abstraction", "Execution", "Polymorphism"], ["Encapsulation", "Abstraction", "Execution", "Polymorphism"]], "Answers": ["C", "B", "B", "C", "B"], 
                                                                      
-"Explanations": ["Explanation: Constructor function should be available to all the parts of the program where the object is to be created. Hence it is advised to define it in public access, so that any other function is able to create objects.", "Protected and public members are accessible from derived classes but public members can be accessed by objects of the class so protected specifier is the answer."]}]}]
+"Explanations": ["Explanation: Constructor function should be available to all the parts of the program where the object is to be created. Hence it is advised to define it in public access so that any other function is able to create objects.", "Protected and public members are accessible from derived classes but public members can be accessed by objects of the class so protected specifier is the answer.", "Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic.", "Object-oriented programming has four basic concepts which include encapsulation, abstraction, inheritance, and polymorphism.", "In Object-Oriented Programming Abstraction is a concept which is concerned with showing only the essential attributes to the user and hides any unnecessary details."]}]},
+
+
+ {"Concept": "Sample4", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
+                                                                     
+"Questions": ["SDLC stands for ?", "This cycle defines a methodology for improving the quality of software and the overall development process", "In Software Engineering when collaborating with customers it is important to define which of the following?", "Which of the following is not defined when collaborating with customers?"],
+                                                                     
+"Choices": [[" System Development Life cycle", "Software Design Life Cycle", "Software Development Life Cycle", "System Design Life Cycle"],[" System Development Life cycle", "Software Design Life Cycle", "Software Development Life Cycle", "System Design Life Cycle"], ["System outputs", "Software features", " Usage scenarios ", "All of the above"], ["Usage Scenarios", "They are all defined", "Software features", "System outputs "]],
+
+"Answers": ["C", "D", "D", "B"], 
+                                                                     
+"Explanations": ["The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software.", "The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software.", "The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software.", "All of the following are defined when collaborating with customers. It is crucial to define the system’s inputs as well as the outputs, important software components or features, and various usage scenarios when working with customers. They all fall into this category", "All of the following are defined when collaborating with customers. It is crucial to define the system’s inputs as well as the outputs, important software components or features and various usage scenarios when working with customers. They all fall into this category."]}]},
+
+
+
+ {"Concept": "Sample5", "Number_of_Questions": 1, "Question_Data": [{"Visited": "False", "In_Use":"False", 
+                                                                     
+"Questions": ["What do you call an edge which starts and ends at the same vertex?", "In graph theory, a loop ___ and ___ at the ___ vertex."],
+                                                                     
+"Choices": [["Recurring edge", "Loop", "Node", "Multiple edge"], ["does not start, does not end, same", "starts, ends, following", "starts, does not end, same", "starts, ends, same"]],
+
+"Answers": ["B", "D"], 
+                                                                     
+"Explanations": ["In a graph, vertices are connected by lines or curves known as edges. An edge that connects a vertex to itself is called a loop.", "In a graph, vertices are connected by lines or curves known as edges. An edge that connects a vertex to itself is called a loop."]}]}]
