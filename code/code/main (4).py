@@ -24,8 +24,9 @@ class Question:
   def get_question(self, num) -> str:
     return self.Questions[num]
     
-  def display_choices(self, num) -> str:
-    return '\n'.join(self.Choices[num])
+  def get_choices(self, num) -> str:
+    #return '\n'.join(self.Choices[num])
+    return self.Choices[num]
     
   def in_use(self) -> None:
     self.In_Use = True
@@ -108,7 +109,10 @@ def questions_available(c_list) -> bool:
 def display_question_info(c_list, r) -> list:
   rint = random.randint(0, len(c_list)- 1)
   print(c_list[rint].get_question(r))
-  print(c_list[rint].display_choices(r))
+  choices =  c_list[rint].get_choices(r)
+  for c in choices:
+    print(c, '\n')
+  #print(c_list[rint].display_choices(r))
   c_list[rint].in_use()
   return c_list
 
@@ -118,7 +122,10 @@ def redisplay_question_info(c_list, r) -> None:
   for q in c_list:
     if q.is_current():
       print(c_list[i].get_question(r))
-      print(c_list[i].display_choices(r))
+      choices =  c_list[i].get_choices(r)
+      for c in choices:
+        print(c, '\n')
+      #print(c_list[i].get_choices(r))
     i += 1
   return None
 
@@ -178,7 +185,6 @@ def reset(Concepts) -> None:
     temp_object_list = v.get_question_data()
   for q in temp_object_list:
     q.reset()
-
 """
 #TEST DRIVER CODE
 class new_test():
@@ -253,4 +259,4 @@ class new_test():
       print("Results:", results(correct, incorrect), "%")
       input("Enter any key to return to menu...")
       clearConsole()
-"""
+      """
