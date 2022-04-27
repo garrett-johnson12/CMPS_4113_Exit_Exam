@@ -1,0 +1,42 @@
+#:kivy 2.1.0
+
+<titleWindow>:
+    orientation: "vertical"
+    padding: "10dp"
+    spacing: "25dp"
+    Image:
+        source:"./images/title2.png"
+        size_hint:1,.05
+    Button:
+        text: "New Exam"
+        size_hint : .5, None
+        pos_hint: {"center_x":.5,"top":1}
+        # color:"black"
+        background_color:"#4fc3f7"
+        # background_normal:''
+        on_release: app.root.current = "exam"
+    Button:
+        text: "Load Exam"
+        size_hint : .5, None
+        pos_hint: {"center_x":.5,"top":1}
+        # color:"black"
+        background_color:"#4fc3f7"
+        # background_normal:''
+        on_release: Factory.loadPopUp().open()
+    # Spinner:
+    #     size_hint : .5, None
+    #     id: "Concept Selection"
+    #     text: "Concept Selection"
+    #     pos_hint: {"center_x":.5,"top":1}
+    #     # color:"black"
+    #     background_color:"#4fc3f7"
+    #     # background_normal:''
+    #     values: ["Discrete Structures", "Programming", "Software Engineering"]
+    Button:
+        size_hint:.5, None
+        pos_hint: {"center_x":.5,"top":1}
+        text: "About"
+        # color:"black"
+        background_color:"#4fc3f7"
+        # background_normal:''
+        on_release: Factory.aboutPopUp().open()

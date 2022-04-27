@@ -1,0 +1,382 @@
+[
+  {
+    "Concept": "Discrete Structures",
+    "Number_of_Questions": "3",
+    "Question_Data": [
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "A circular linked list can be used for",
+          "What differentiates a circular linked list from a normal linked list?"
+        ],
+        "Choices": [
+          ["Stack", "Queue", "Both Stack & Queue", "Neither Stack or Queue"],
+          [
+            "You cannot have the ‘next’ pointer point to null in a circular linked list",
+            "It is faster to traverse the circular linked list",
+            "You may or may not have the ‘next’ pointer point to null in a circular linked list",
+            "Head node is known in circular linked list"
+          ]
+        ],
+        "Answers": ["C", "C"],
+        "Explanations": ["No Explanation", "No explanation"]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "What do you call an edge which starts and ends at the same vertex?",
+          " In graph theory, a loop ___ and ___ at the ___ vertex."
+        ],
+        "Choices": [
+          ["Recurring edge", "Loop", "Node", "Multiple edge"],
+          [
+            "does not start, does not end, same",
+            "starts, ends, following",
+            "starts, does not end, same",
+            "starts, ends, same"
+          ]
+        ],
+        "Answers": ["B", "D"],
+        "Explanations": [
+          "Explanation: In a graph, vertices are connected by lines or curves known as edges. An edge that connects a vertex to itself is called a loop.",
+          "Explanation: In a graph, vertices are connected by lines or curves known as edges. An edge that connects a vertex to itself is called a loop."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "The top most node when dealing with a tree data structure is known as",
+          "In data structures, tree theory states that the very first or top most node is called ____"
+        ],
+        "Choices": [
+          ["The root", "The crown", "The peak", "The apex"],
+          ["The apex", "The peak", "The root", "The crown"]
+        ],
+        "Answers": ["A", "C"],
+        "Explanations": [
+          "Explanation:  A tree is a hierarchical data structure consisting of nodes connected by edges. The very first or topmost node is known as the root node. The tree originates from this root node and hence, has no parents",
+          "Explanation: A tree is a hierarchical data structure consisting of nodes connected by edges. The very first or topmost node is known as the root node. The tree originates from this root node and hence, has no parents."
+        ]
+      }
+    ]
+  },
+  {
+    "Concept": "Programming",
+    "Number_of_Questions": 5,
+    "Question_Data": [
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "In which access should a constructor be defined, so that object of the class can be created in any function?",
+          "Which access specifier is used where one wants data members to be accessed by other classes but not from outside objects?"
+        ],
+        "Choices": [
+          ["Any access specifier will work", "Private", "Public", "Protected"],
+          ["Private", "Protected", "Public", "Both Protected and Public"]
+        ],
+        "Answers": ["C", "C"],
+        "Explanations": ["No Explanation", "No Explanation"]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Which of the following is a true statement regarding a constructor?",
+          "Which of the following is a false statement regarding a constructor?"
+        ],
+        "Choices": [
+          [
+            "its return type is int",
+            "its return type is void",
+            "its return type changes based on how you write it",
+            "it has no return type"
+          ],
+          [
+            "Name varies from the class name",
+            "It has no return type",
+            "Automatically executed whenever an object of a class is created",
+            "Has the same name with the class"
+          ]
+        ],
+        "Answers": ["D", "A"],
+        "Explanations": [
+          "Explanation: A constructor doesn't return any values explicitly, it returns the instance of the class to which it belongs",
+          "Explanation: A constructor is a member function of a class that has the same name as the class name"
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "What does OOP stand for?",
+          "Object-oriented programming(OOP) has four basic concepts. Which one does not belong?"
+        ],
+        "Choices": [
+          [
+            "Out of Pocket",
+            "Object Oriented Programming",
+            "Out of policy",
+            "Oriented Object Program"
+          ],
+          ["Encapsulation", "Abstraction", "Execution", "Polymorphism"]
+        ],
+        "Answers": ["B", "C"],
+        "Explanations": [
+          "Explanation:Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic.",
+          "Explanation: Object-oriented programming has four basic concepts which includes encapsulation, abstraction, inheritance, and polymorphism."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Exposing only the necessary information to the user in Object Oriented Programming is known as",
+          "Which of the following is not a true statement when discussing the concept of Abstraction?"
+        ],
+        "Choices": [
+          ["Abstraction", "Polymorphism", "Encapsulation", "Data Binding"],
+          [
+            "Only essential attributes are illustrated to the user",
+            "Avoids code duplication and increases reusability",
+            "All attributes and unnecessary details are shown to the user",
+            "Unnecessary details are hidden from the user"
+          ]
+        ],
+        "Answers": ["A", "C"],
+        "Explanations": [
+          "Explanation: In Object Oriented Programming Abstraction is a concept which is concerned with showing only the essential attributes to the user and hides any unnecessary details.",
+          "Explanation: In Object Oriented Programming Abstraction is a concept which is concerned with showing only the essential attributes to the user and hides any unnecessary details."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Accessing an array in almost all programming languages is denoted by using",
+          "What kind of bracketing is most commonly used by almost all programming languages when denoting array access?"
+        ],
+        "Choices": [
+          [
+            "Curly brackets",
+            "Round brackets",
+            "Square brackets",
+            "Quotation marks"
+          ],
+          [
+            "Quotation marks",
+            "Square brackets",
+            "Curly brackets",
+            "Round Brackets"
+          ]
+        ],
+        "Answers": ["C", "B"],
+        "Explanations": [
+          "Explanation: The kind of bracketing used in almost all programming languages in order to denote array access is the square brackets.",
+          "Explanation: The kind of bracketing used in almost all programming languages in order to denote array access is the square brackets."
+        ]
+      }
+    ]
+  },
+  {
+    "Concept": "Algorithms and Complexity",
+    "Number_of_Questions": 3,
+    "Question_Data": [
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Which string will be accepted by the regular expression? 1(00)*1",
+          "Which regular expression accepts this string? 100001"
+        ],
+        "Choices": [
+          ["11001", "100001", "101", "10011"],
+          ["1(00)*11", "1(0)*", "1(00)*1", "1*0(00)*1"]
+        ],
+        "Answers": ["B", "C"],
+        "Explanations": [
+          "The string must start and end with a singular 1, so A and D can be eliminated. The string can only have 0 or even pairs of zeros, eliminating C. This leaves B as the correct answer. ",
+          "The expression must start with a 1 and end with 1 so B can be eliminated. D can only produce an odd number of 0s, so it can be eliminated. Answer A ends with more than a singular 1, leaving answer C."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Which of the following search/sort algorithms has the average time complexity of O(log(n))?",
+          "Binary search has what time complexity?"
+        ],
+        "Choices": [
+          ["linear search", "binary search", "bubble sort", "insertion sort"],
+          ["O(n)", "O(nlog(n)", "O(log(n))", "O(n^2)"]
+        ],
+        "Answers": ["B", "C"],
+        "Explanations": [
+          "Explanation: Linear search can only search elements 1 by 1 (O(n)). Bubble sort must traverse the entire array after each element causing O(n^2).",
+          "No Explanation"
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "Stack is what type of data structure",
+          "Queue is is what type of data structure"
+        ],
+        "Choices": [
+          ["LIFO memory", "FIFO memory", "Flash Memory", "Bust Flash Memory"],
+          ["LIFO memory", "FIFO memory", "Flash Memory", "Bust Flash Memory"]
+        ],
+        "Answers": ["A", "B"],
+        "Explanations": [
+          "The element inserted at the last is the first element to come out first.",
+          "The element inserted at the first, is the first element to come out of the list."
+        ]
+      }
+    ]
+  },
+  {
+    "Concept": "Software Engineering",
+    "Number_of_Questions": 5,
+    "Question_Data": [
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "What does SDLC stand for?",
+          "This cycle defines a methodology for improving the quality of software and the overall development process"
+        ],
+        "Choices": [
+          [
+            "System Development Life cycle",
+            "Software Design Life Cycle",
+            "Software Development Life Cycle",
+            "System Design Life Cycle"
+          ],
+          [
+            "Software Design Life Cycle",
+            "System Design Life Cycle",
+            "System Development Life cycle",
+            "Software Development Life Cycle (SDLC)"
+          ]
+        ],
+        "Answers": ["C", "D"],
+        "Explanations": [
+          "Explanation: The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software.",
+          "Explanation: The Software Development Life Cycle (SDLC) refers to a methodology with clearly defined processes for creating high-quality software."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "In Software Engineering, which of the following would be considered a functional requirement?",
+          "Which one of the following would fall under the concept of a non-functional requirement in Software Engineering?"
+        ],
+        "Choices": [
+          [
+            "Speed",
+            "Deposit money in a Banking System",
+            "Reliability",
+            "Accuracy"
+          ],
+          [
+            "Accuracy",
+            "Loan processing in a Banking System",
+            "Cash withdrawal in a Banking System",
+            "Deposit money in a Banking System"
+          ]
+        ],
+        "Answers": ["B", "A"],
+        "Explanations": [
+          "Explanation: In Software Engineering, a functional requirement aims at defining how the system must work whereas, a non-functional requirement aims at defining how the system should perform",
+          "Explanation: In Software Engineering, a functional requirement aims at defining how the system must work whereas, a non-functional requirement aims at defining how the system should perform"
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "In Software Engineering, when collaborating with customers it is important to define which of the following?",
+          "Which of the following is not defined when collaborating with customers?"
+        ],
+        "Choices": [
+          [
+            "System outputs",
+            "Software features",
+            "Usage scenarios",
+            "All of the above"
+          ],
+          [
+            "Usage Scenarios",
+            "They are all defined",
+            "Software features",
+            "System outputs"
+          ]
+        ],
+        "Answers": ["D", "B"],
+        "Explanations": [
+          "Explanation: All of the following are defined when collaborating with customers. It is crucial to define the system’s inputs as well as the outputs, important software components or features and various usage scenarios when working with customers. They all fall into this category.",
+          "Explanation: All of the following are defined when collaborating with customers. It is crucial to define the system’s inputs as well as the outputs, important software components or features and various usage scenarios when working with customers. They all fall into this category."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          " Which of the following best defines what an Agile scrum methodology is?",
+          "An Agile scrum methodology is defined in Software engineering as a"
+        ],
+        "Choices": [
+          [
+            "project management that emphasizes decremental progress",
+            "project management that emphasizes neutral progress",
+            "project management that emphasizes incremental progress",
+            "project management that emphasizes no progress"
+          ],
+          [
+            "project management that emphasizes neutral progress",
+            "project management that emphasizes no progress",
+            "project management that emphasizes decremental progress",
+            "project management that emphasizes incremental progress"
+          ]
+        ],
+        "Answers": ["C", "D"],
+        "Explanations": [
+          "Explanation: In Software engineering, an Agile scrum methodology is defined as a style of project management that emphasizes incremental progress. The goal is to complete the most important features first by dividing each iteration into two to four-week sprints, with the intention to have a deliverable product at the end of each sprint.",
+          "Explanation: In Software engineering, an Agile scrum methodology is defined as a style of project management that emphasizes incremental progress. The goal is to complete the most important features first by dividing each iteration into two to four-week sprints, with the intention to have a deliverable product at the end of each sprint."
+        ]
+      },
+      {
+        "Visited": "False",
+        "In_Use": "False",
+        "Questions": [
+          "What does the abbreviation RAD stand for?",
+          "RAD is an agile development method also known as"
+        ],
+        "Choices": [
+          [
+            "Recent Application Development",
+            "Rapid Activity Design",
+            "Recent Analysis Design",
+            "Rapid Application Development"
+          ],
+          [
+            "Recent Aerial Design",
+            "Rapid Application Development",
+            "Rapid Activity Development",
+            "Recent Application Design"
+          ]
+        ],
+        "Answers": ["D", "B"],
+        "Explanations": [
+          "Explanation: Rapid Application Development (RAD) is an agile development method used in Software engineering which places less emphasis on planning tasks and more emphasis on iterative development for the purpose of accomplishing a quick turnaround and high-end outcomes",
+          "Explanation: Rapid Application Development (RAD) is an agile development method used in Software engineering which places less emphasis on planning tasks and more emphasis on iterative development for the purpose of accomplishing a quick turnaround and high-end outcomes"
+        ]
+      }
+    ]
+  }
+]
