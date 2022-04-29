@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #:kivy 2.1.0
 #:import Factory kivy.factory.Factory
 
@@ -404,4 +405,412 @@
     #         background_color: "#73be73"
     #         background_normal:''
     #         bold:True
+=======
+#:kivy 2.1.0
+#:import Factory kivy.factory.Factory
+
+# <helpPopUp@Popup>:
+#     auto_dismiss: True
+#     title: ""
+#     separator_height:0
+#     title_size:18
+#     size_hint: .6,.8
+#     pos_hint:{"center_x":.5,"center_y":.5}
+#     BoxLayout:
+#         orientation:"vertical"
+#         padding:"10dp"
+#         spacing:"25dp"
+#         ScrollView:
+#             GridLayout:
+#                 cols:2
+#                 row: 6
+#                 size_hint: 1,None
+#                 height: self.minimum_height
+#                 padding: "15dp"
+#                 spacing: "25dp"
+#                 Image:
+#                     source: "./images/close&save.jpg"
+#                 Label:
+#                     id:Close
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+                    
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This button allows you to save your current exam, then takes you back to the Main Menu"
+                    
+#                 Image:
+#                     source: "./images/selectQ.jpg"
+#                 Label:
+#                     id:selQ
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+                    
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This button allows you to select a specific question"
+                       
+#                 Image:
+#                     source: "./images/questionBox2.jpg"
+#                     size_hint:2,2
+#                 Label:
+#                     id:qBox
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This area is where the question will appear"
+                    
+#                 Image:
+#                     source: "./images/answerfield2.jpg"
+#                     size_hint:2,2
+#                 Label:
+#                     id:answerField
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This area is where you can select answer"
+                  
+#                 Image:
+#                     source: "./images/prev.jpg"
+#                     size_hint:2,2
+#                 Label:
+#                     id:answerField
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This button takes you to the previous question"
+                   
+#                 Image:
+#                     source: "./images/next.jpg"
+#                     size_hint:2,2
+#                 Label:
+#                     id:answerField
+#                     font_size:18
+#                     size_hint_y: None
+#                     text_size: self.width, None
+#                     height: self.texture_size[1]
+#                     halign: 'center'
+#                     valign: 'middle'
+#                     text:"This button takes you to the next question"
+                    
+#         Button:
+#             text:"Close"
+#             font_size:24
+#             font_name:"Arial"
+#             bold: True
+#             background_color: "ff8886"
+#             background_normal:''
+#             size_hint:.5,.15
+#             pos_hint:{"center_x":.5,"bottom":1}
+#             on_release:root.dismiss()
+# # Popup Configs for the about button on the Title Screen
+# <aboutPopUp@Popup>:
+#     auto_dismiss: True
+#     title: ""
+#     separator_height:0
+#     title_size:18
+#     size_hint: .6,.8
+#     pos_hint:{"center_x":.5,"center_y":.5}
+#     BoxLayout:
+#         orientation:"vertical"
+#         size_hint: 1,1
+#         height:self.minimum_height
+#         # pos_hint:{"top":.5}
+#         padding: "15dp"
+#         spacing: "25dp"
+#         Label:
+#             id:About
+#             font_size:18
+#             size_hint_y: None
+#             text_size: self.width, None
+#             height: self.texture_size[1]
+#             halign: 'center'
+#             valign: 'top'
+#             color:'black'
+#             text:"Exit Exam Testing Application\n This application was designed with the intent to test Computer Science studenets over various related concepts.\n Project Vesion: 1.0\n Owner: Dr.Stringfellow\n Developers:\n Garret Johnson: Frontend Developer\n Jose Soto: Backend Developer\n Chris Anthony: Bookkeeper\n Sandesh Pathak: Bookkeeper\n"
+#             canvas.before:
+#                 Color:
+#                     rgba:(1,1,1,1)
+#                 Rectangle:
+#                     size:self.size
+#                     pos:self.pos
+#         Button:
+#             text:"Close"
+#             font_size:24
+#             font_name:"Arial"
+#             bold: True
+#             background_color: "ff8886"
+#             background_normal:''
+#             # size_hint:.5,.5
+#             # pos_hint:{"center_x":.5,"bottom":1}
+#             on_release:root.dismiss()
+# Popup configs for the load button on the Title screen
+# <loadPopUp@Popup>:
+    # auto_dismiss: True
+    # title: "Sorry. Feature will be added in newer version!"
+    # title_size:18
+    # size_hint: .6,.4
+    # pos_hint:{"center_x":.5,"center_y":.5}
+    # Button:
+    #     text:"Close"
+    #     font_size:14
+    #     font_name:"Arial"
+    #     bold: True
+    #     background_color: "ff8886"
+    #     background_normal:''
+    #     size_hint:1,0.3
+    #     pos_hint:{"center_y":.5}
+    #     on_release:root.dismiss()
+# Popup configs for the close and save button on the 
+# <savePopUp@Popup>:
+#     auto_dismiss: True
+#     title: "Would you like to save your progress?"
+#     title_size:18
+#     size_hint: .35,.3
+#     pos_hint:{"right":.9,"top":.9}
+#     BoxLayout:
+#         orientation:"horizontal"
+#         size_hint: 1,.8
+#         padding: "15dp"
+#         spacing: "25dp"
+#         Button:
+#             text:"Yes"
+#             font_size:14
+#             font_name:"Arial"
+#             bold: True
+#             background_color: "73be73"
+#             background_normal:''
+#             size_hint:.5,1
+#             on_release:root.dismiss()
+#         Button:
+#             text:"No"
+#             font_size:14
+#             font_name:"Arial"
+#             bold: True
+#             background_color: "ff8886"
+#             background_normal:''
+#             size_hint:.5,1
+#             on_release:root.dismiss()
+
+# <titleWindow>:
+    # orientation: "vertical"
+    # padding: "10dp"
+    # spacing: "25dp"
+    # Image:
+    #     source:"./images/title2.png"
+    #     size_hint:1,.05
+    # Button:
+    #     text: "New Exam"
+    #     size_hint : .5, None
+    #     pos_hint: {"center_x":.5,"top":1}
+    #     # color:"black"
+    #     background_color:"#4fc3f7"
+    #     # background_normal:''
+    #     on_release: app.root.current = "exam"
+    # Button:
+    #     text: "Load Exam"
+    #     size_hint : .5, None
+    #     pos_hint: {"center_x":.5,"top":1}
+    #     # color:"black"
+    #     background_color:"#4fc3f7"
+    #     # background_normal:''
+    #     on_release: Factory.loadPopUp().open()
+    # # Spinner:
+    # #     size_hint : .5, None
+    # #     id: "Concept Selection"
+    # #     text: "Concept Selection"
+    # #     pos_hint: {"center_x":.5,"top":1}
+    # #     # color:"black"
+    # #     background_color:"#4fc3f7"
+    # #     # background_normal:''
+    # #     values: ["Discrete Structures", "Programming", "Software Engineering"]
+    # Button:
+    #     size_hint:.5, None
+    #     pos_hint: {"center_x":.5,"top":1}
+    #     text: "About"
+    #     # color:"black"
+    #     background_color:"#4fc3f7"
+    #     # background_normal:''
+    #     on_release: Factory.aboutPopUp().open()
+
+# <examWindow>:
+    
+    # orientation:"vertical"
+    # BoxLayout:
+    #     orientation:"horizontal"
+    #     size_hint:1,.5
+    #     padding: "15dp"
+    #     spacing: "25dp"
+        
+    #     Button:
+    #         pos_hint:{"top":1}
+    #         size_hint:.33,.5
+    #         font_size:14
+    #         font_name:"Arial"
+    #         text:"Help"
+    #         color:"black"
+    #         bold: True
+    #         background_color: "#ffb678"
+    #         background_normal:''
+    #         on_press:Factory.helpPopUp().open()
+
+    #     Button:
+    #         pos_hint:{"top":1}
+    #         size_hint:.33,.5
+    #         font_size:14
+    #         font_name:"Arial"
+    #         text:"Select a Question"
+    #         color:"black"
+    #         bold: True
+    #         background_color: "#4fc3f7"
+    #         background_normal:''
+    #         on_press:
+        
+    #     Button:
+    #         pos_hint:{"top":1}
+    #         size_hint:.33,.5
+    #         font_size:14
+    #         font_name:"Arial"
+    #         bold: True
+    #         text:"Close and Save"
+    #         color:"black"
+    #         background_normal:''
+    #         background_color: "#ff8886"
+    #         on_release: Factory.savePopUp().open()
+    
+    # ScrollView:
+    #     BoxLayout:
+    #         orientation:"vertical"
+    #         spacing:"15dp"
+    #         padding:"50dp"
+    #         size_hint:1,None
+    #         height:self.minimum_height
+    #         Label:
+    #             id: Question_Box
+    #             font_size:18
+    #             size_hint_y: None
+    #             text_size: self.width, None
+    #             height: self.texture_size[1]
+    #             halign: 'center'
+    #             valign: 'middle'
+    #             text:"Hello"
+                
+    # # Add Marker Label to indicate a seperate set of elements
+    # Label:
+    #     size_hint:1,.25
+    #     id: Answer Instructions
+    #     text: "Please Select an Answer"
+    #     halign: 'center'
+    #     valign: 'middle'
+    #     font_size:18
+    # # This is for the answer options
+    # ScrollView:
+    #     # Place the Answers in Labels and add radio boxes next to them
+    #     # with a grid layout
+    #     GridLayout:
+    #         cols:2
+    #         size_hint:1,None
+    #         height:self.minimum_height
+    #         spacing:"15dp"
+    #         padding:"50dp"
+            
+    #         Label:
+    #             id:AnswerSelection_1
+    #             font_size:18
+    #             size_hint_y: None
+    #             text_size: self.width, None
+    #             height: self.texture_size[1]
+    #             halign: 'center'
+    #             valign: 'middle'
+    #             text:"Here Be text"
+                
+    #         CheckBox:
+    #             group:"selected_answer"
+    #             halign: 'right'
+    #             valign: 'middle'
+    #             on_active:root.selection(self,self.active)
+    #         Label:
+    #             id:AnswerSelection_2
+    #             font_size:18
+    #             size_hint_y: None
+    #             text_size: self.width, None
+    #             height: self.texture_size[1]
+    #             halign: 'center'
+    #             valign: 'middle'
+    #             text:"Here Be text"
+                
+    #         CheckBox:
+    #             group:"selected_answer"
+    #             halign: 'right'
+    #             valign: 'middle'
+    #             on_active:root.selection(self,self.active)
+    #         Label:
+    #             id:AnswerSelection_3
+    #             font_size:18
+    #             size_hint_y: None
+    #             text_size: self.width, None
+    #             height: self.texture_size[1]
+    #             halign: 'center'
+    #             valign: 'middle'
+    #             text:"Here Be text"
+    #         CheckBox:
+    #             group:"selected_answer"
+    #             halign: 'right'
+    #             valign: 'middle'
+    #             on_active:root.selection(self,self.active)
+    #         Label:
+    #             id:AnswerSelection_4
+    #             font_size:18
+    #             size_hint_y: None
+    #             text_size: self.width, None
+    #             height: self.texture_size[1]
+    #             halign: 'center'
+    #             valign: 'middle'
+    #             text:"Here Be text"
+    #         CheckBox:
+    #             group:"selected_answer"
+    #             halign: 'right'
+    #             valign: 'middle'
+    #             on_active:root.selection(self,self.active)
+
+    # BoxLayout:
+    #     orientation:"horizontal"
+    #     size_hint:1,.5
+    #     padding: "10dp"
+    #     spacing: "10dp"
+    #     Button:
+    #         pos_hint:{"bottom":1}
+    #         size_hint:.25,.5
+    #         font_size:14
+    #         font_name:"Arial"
+    #         text:"Previous Question"
+    #         color:"black"
+    #         background_color: "#73be73"
+    #         background_normal:''
+    #         bold:True
+    #         on_press:
+    #     Button:
+    #         pos_hint:{"bottom":1}
+    #         size_hint:.25,.5
+    #         font_size:14
+    #         font_name:"Arial"
+    #         text:"Next Question"
+    #         color:"black"
+    #         background_color: "#73be73"
+    #         background_normal:''
+    #         bold:True
+>>>>>>> c753016bbdd1665065d4443228e234747b6f57a2
     #         on_press:

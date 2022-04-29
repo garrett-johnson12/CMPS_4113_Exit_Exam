@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #:kivy 2.1.0
 
 <examWindow>:
@@ -166,4 +167,174 @@
             background_color: "#73be73"
             background_normal:''
             bold:True
+=======
+#:kivy 2.1.0
+
+<examWindow>:
+    
+    orientation:"vertical"
+    BoxLayout:
+        orientation:"horizontal"
+        size_hint:1,.5
+        padding: "15dp"
+        spacing: "25dp"
+        
+        Button:
+            pos_hint:{"top":1}
+            size_hint:.33,.5
+            font_size:14
+            font_name:"Arial"
+            text:"Help"
+            color:"black"
+            bold: True
+            background_color: "#ffb678"
+            background_normal:''
+            on_press:Factory.helpPopUp().open()
+
+        Button:
+            pos_hint:{"top":1}
+            size_hint:.33,.5
+            font_size:14
+            font_name:"Arial"
+            text:"Select a Question"
+            color:"black"
+            bold: True
+            background_color: "#4fc3f7"
+            background_normal:''
+            on_press:
+        
+        Button:
+            pos_hint:{"top":1}
+            size_hint:.33,.5
+            font_size:14
+            font_name:"Arial"
+            bold: True
+            text:"Close and Save"
+            color:"black"
+            background_normal:''
+            background_color: "#ff8886"
+            on_release: Factory.savePopUp().open()
+    
+    ScrollView:
+        BoxLayout:
+            orientation:"vertical"
+            spacing:"15dp"
+            padding:"50dp"
+            size_hint:1,None
+            height:self.minimum_height
+            Label:
+                id: Question_Box
+                font_size:18
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                halign: 'center'
+                valign: 'middle'
+                text:"Hello"
+                
+    # Add Marker Label to indicate a seperate set of elements
+    Label:
+        size_hint:1,.25
+        id: Answer Instructions
+        text: "Please Select an Answer"
+        halign: 'center'
+        valign: 'middle'
+        font_size:18
+    # This is for the answer options
+    ScrollView:
+        # Place the Answers in Labels and add radio boxes next to them
+        # with a grid layout
+        GridLayout:
+            cols:2
+            size_hint:1,None
+            height:self.minimum_height
+            spacing:"15dp"
+            padding:"50dp"
+            
+            Label:
+                id:AnswerSelection_1
+                font_size:18
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                halign: 'center'
+                valign: 'middle'
+                text:"Here Be text"
+                
+            CheckBox:
+                group:"selected_answer"
+                halign: 'right'
+                valign: 'middle'
+                on_active:root.selection(self,self.active)
+            Label:
+                id:AnswerSelection_2
+                font_size:18
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                halign: 'center'
+                valign: 'middle'
+                text:"Here Be text"
+                
+            CheckBox:
+                group:"selected_answer"
+                halign: 'right'
+                valign: 'middle'
+                on_active:root.selection(self,self.active)
+            Label:
+                id:AnswerSelection_3
+                font_size:18
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                halign: 'center'
+                valign: 'middle'
+                text:"Here Be text"
+            CheckBox:
+                group:"selected_answer"
+                halign: 'right'
+                valign: 'middle'
+                on_active:root.selection(self,self.active)
+            Label:
+                id:AnswerSelection_4
+                font_size:18
+                size_hint_y: None
+                text_size: self.width, None
+                height: self.texture_size[1]
+                halign: 'center'
+                valign: 'middle'
+                text:"Here Be text"
+            CheckBox:
+                group:"selected_answer"
+                halign: 'right'
+                valign: 'middle'
+                on_active:root.selection(self,self.active)
+
+    BoxLayout:
+        orientation:"horizontal"
+        size_hint:1,.5
+        padding: "10dp"
+        spacing: "10dp"
+        Button:
+            pos_hint:{"bottom":1}
+            size_hint:.25,.5
+            font_size:14
+            font_name:"Arial"
+            text:"Previous Question"
+            color:"black"
+            background_color: "#73be73"
+            background_normal:''
+            bold:True
+            on_press:
+        Button:
+            pos_hint:{"bottom":1}
+            size_hint:.25,.5
+            font_size:14
+            font_name:"Arial"
+            text:"Next Question"
+            color:"black"
+            background_color: "#73be73"
+            background_normal:''
+            bold:True
+>>>>>>> c753016bbdd1665065d4443228e234747b6f57a2
             on_press:
